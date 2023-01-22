@@ -1,0 +1,46 @@
+﻿  dino.cpp
+C:\Users\SolerioX\Documents\SETU_Carlow\Motion_Graphics\Lab_6\dino\dino\dino.cpp(37,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\SolerioX\Documents\SETU_Carlow\Motion_Graphics\Lab_6\dino\dino\dino.cpp(316,51): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+C:\Users\SolerioX\Documents\SETU_Carlow\Motion_Graphics\Lab_6\dino\dino\dino.cpp(319,53): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+C:\Users\SolerioX\Documents\SETU_Carlow\Motion_Graphics\Lab_6\dino\dino\dino.cpp(322,55): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+C:\Users\SolerioX\Documents\SETU_Carlow\Motion_Graphics\Lab_6\dino\dino\dino.cpp(333,49): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+C:\Users\SolerioX\Documents\SETU_Carlow\Motion_Graphics\Lab_6\dino\dino\dino.cpp(336,51): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+C:\Users\SolerioX\Documents\SETU_Carlow\Motion_Graphics\Lab_6\dino\dino\dino.cpp(342,46): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+C:\Users\SolerioX\Documents\SETU_Carlow\Motion_Graphics\Lab_6\dino\dino\dino.cpp(346,29): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\SolerioX\Documents\SETU_Carlow\Motion_Graphics\Lab_6\dino\dino\dino.cpp(349,41): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+C:\Users\SolerioX\Documents\SETU_Carlow\Motion_Graphics\Lab_6\dino\dino\dino.cpp(351,41): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+C:\Users\SolerioX\Documents\SETU_Carlow\Motion_Graphics\Lab_6\dino\dino\dino.cpp(357,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\SolerioX\Documents\SETU_Carlow\Motion_Graphics\Lab_6\dino\dino\dino.cpp(539,22): warning C4018: '<': signed/unsigned mismatch
+  dino.vcxproj -> C:\Users\SolerioX\Documents\SETU_Carlow\Motion_Graphics\Lab_6\dino\Debug\dino.exe
