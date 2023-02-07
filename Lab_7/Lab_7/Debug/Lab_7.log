@@ -1,0 +1,19 @@
+﻿  Lab_7.cpp
+C:\Users\SolerioX\Documents\SETU_Carlow\Motion_Graphics\Lab_7\Lab_7\Lab_7.cpp(31,46): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\SolerioX\Documents\SETU_Carlow\Motion_Graphics\Lab_7\Lab_7\Lab_7.cpp(123,48): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\SolerioX\Documents\SETU_Carlow\Motion_Graphics\Lab_7\Lab_7\Lab_7.cpp(123,38): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\SolerioX\Documents\SETU_Carlow\Motion_Graphics\Lab_7\Lab_7\Lab_7.cpp(130,48): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\SolerioX\Documents\SETU_Carlow\Motion_Graphics\Lab_7\Lab_7\Lab_7.cpp(130,38): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\SolerioX\Documents\SETU_Carlow\Motion_Graphics\Lab_7\Lab_7\Lab_7.cpp(136,48): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\SolerioX\Documents\SETU_Carlow\Motion_Graphics\Lab_7\Lab_7\Lab_7.cpp(136,38): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\SolerioX\Documents\SETU_Carlow\Motion_Graphics\Lab_7\Lab_7\Lab_7.cpp(144,48): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\SolerioX\Documents\SETU_Carlow\Motion_Graphics\Lab_7\Lab_7\Lab_7.cpp(144,38): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\SolerioX\Documents\SETU_Carlow\Motion_Graphics\Lab_7\Lab_7\Lab_7.cpp(152,48): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\SolerioX\Documents\SETU_Carlow\Motion_Graphics\Lab_7\Lab_7\Lab_7.cpp(152,38): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\SolerioX\Documents\SETU_Carlow\Motion_Graphics\Lab_7\Lab_7\Lab_7.cpp(160,48): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\SolerioX\Documents\SETU_Carlow\Motion_Graphics\Lab_7\Lab_7\Lab_7.cpp(160,38): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\SolerioX\Documents\SETU_Carlow\Motion_Graphics\Lab_7\Lab_7\Lab_7.cpp(214,1): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\SolerioX\Documents\SETU_Carlow\Motion_Graphics\Lab_7\Lab_7\Lab_7.cpp(223,1): warning C4305: '=': truncation from 'double' to 'float'
+C:\Users\SolerioX\Documents\SETU_Carlow\Motion_Graphics\Lab_7\Lab_7\Lab_7.cpp(231,1): warning C4305: '=': truncation from 'double' to 'float'
+C:\Users\SolerioX\Documents\SETU_Carlow\Motion_Graphics\Lab_7\Lab_7\Lab_7.cpp(344,1): warning C4305: '=': truncation from 'double' to 'float'
+  Lab_7.vcxproj -> C:\Users\SolerioX\Documents\SETU_Carlow\Motion_Graphics\Lab_7\Debug\Lab_7.exe
