@@ -1,31 +1,31 @@
 ﻿  Game.cpp
-C:\Users\SolerioX\Documents\SETU_Carlow\Motion_Graphics\Motion_Graphics\Lab_8\Lab_7\Game.cpp(34,46): warning C4305: 'initializing': truncation from 'double' to 'float'
-C:\Users\SolerioX\Documents\SETU_Carlow\Motion_Graphics\Motion_Graphics\Lab_8\Lab_7\Game.cpp(172,49): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\SolerioX\Documents\SETU_Carlow\Motion_Graphics\Motion_Graphics\Lab_8\Lab_7\Game.cpp(172,39): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\SolerioX\Documents\SETU_Carlow\Motion_Graphics\Motion_Graphics\Lab_8\Lab_7\Game.cpp(179,49): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\SolerioX\Documents\SETU_Carlow\Motion_Graphics\Motion_Graphics\Lab_8\Lab_7\Game.cpp(179,39): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\SolerioX\Documents\SETU_Carlow\Motion_Graphics\Motion_Graphics\Lab_8\Lab_7\Game.cpp(185,49): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\SolerioX\Documents\SETU_Carlow\Motion_Graphics\Motion_Graphics\Lab_8\Lab_7\Game.cpp(185,39): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\SolerioX\Documents\SETU_Carlow\Motion_Graphics\Motion_Graphics\Lab_8\Lab_7\Game.cpp(193,49): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\SolerioX\Documents\SETU_Carlow\Motion_Graphics\Motion_Graphics\Lab_8\Lab_7\Game.cpp(193,39): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\SolerioX\Documents\SETU_Carlow\Motion_Graphics\Motion_Graphics\Lab_8\Lab_7\Game.cpp(201,49): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\SolerioX\Documents\SETU_Carlow\Motion_Graphics\Motion_Graphics\Lab_8\Lab_7\Game.cpp(201,39): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\SolerioX\Documents\SETU_Carlow\Motion_Graphics\Motion_Graphics\Lab_8\Lab_7\Game.cpp(209,49): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\SolerioX\Documents\SETU_Carlow\Motion_Graphics\Motion_Graphics\Lab_8\Lab_7\Game.cpp(209,39): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\SolerioX\Documents\SETU_Carlow\Motion_Graphics\Motion_Graphics\Lab_8\Lab_7\Game.cpp(272,54): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\SolerioX\Documents\SETU_Carlow\Motion_Graphics\Motion_Graphics\Lab_8\Lab_7\Game.cpp(272,44): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\SolerioX\Documents\SETU_Carlow\Motion_Graphics\Motion_Graphics\Lab_8\Lab_7\Game.cpp(279,54): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\SolerioX\Documents\SETU_Carlow\Motion_Graphics\Motion_Graphics\Lab_8\Lab_7\Game.cpp(279,44): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\SolerioX\Documents\SETU_Carlow\Motion_Graphics\Motion_Graphics\Lab_8\Lab_7\Game.cpp(285,54): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\SolerioX\Documents\SETU_Carlow\Motion_Graphics\Motion_Graphics\Lab_8\Lab_7\Game.cpp(285,44): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\SolerioX\Documents\SETU_Carlow\Motion_Graphics\Motion_Graphics\Lab_8\Lab_7\Game.cpp(293,54): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\SolerioX\Documents\SETU_Carlow\Motion_Graphics\Motion_Graphics\Lab_8\Lab_7\Game.cpp(293,44): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\SolerioX\Documents\SETU_Carlow\Motion_Graphics\Motion_Graphics\Lab_8\Lab_7\Game.cpp(301,54): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\SolerioX\Documents\SETU_Carlow\Motion_Graphics\Motion_Graphics\Lab_8\Lab_7\Game.cpp(301,44): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\SolerioX\Documents\SETU_Carlow\Motion_Graphics\Motion_Graphics\Lab_8\Lab_7\Game.cpp(309,54): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\SolerioX\Documents\SETU_Carlow\Motion_Graphics\Motion_Graphics\Lab_8\Lab_7\Game.cpp(309,44): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\SolerioX\Documents\SETU_Carlow\Motion_Graphics\Motion_Graphics\Lab_8\Lab_7\Game.cpp(339,1): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\SolerioX\Documents\SETU_Carlow\Motion_Graphics\Motion_Graphics\Lab_8\Lab_7\Game.cpp(347,1): warning C4305: '=': truncation from 'double' to 'float'
-C:\Users\SolerioX\Documents\SETU_Carlow\Motion_Graphics\Motion_Graphics\Lab_8\Lab_7\Game.cpp(355,1): warning C4305: '=': truncation from 'double' to 'float'
-C:\Users\SolerioX\Documents\SETU_Carlow\Motion_Graphics\Motion_Graphics\Lab_8\Lab_7\Game.cpp(468,1): warning C4305: '=': truncation from 'double' to 'float'
-  Lab_7.vcxproj -> C:\Users\SolerioX\Documents\SETU_Carlow\Motion_Graphics\Motion_Graphics\Lab_8\Debug\Lab_7.exe
+C:\Users\c00290201\Documents\Motion_Graphics\Lab_8\Lab_7\Game.cpp(34,46): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\c00290201\Documents\Motion_Graphics\Lab_8\Lab_7\Game.cpp(172,49): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\c00290201\Documents\Motion_Graphics\Lab_8\Lab_7\Game.cpp(172,39): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\c00290201\Documents\Motion_Graphics\Lab_8\Lab_7\Game.cpp(179,49): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\c00290201\Documents\Motion_Graphics\Lab_8\Lab_7\Game.cpp(179,39): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\c00290201\Documents\Motion_Graphics\Lab_8\Lab_7\Game.cpp(185,49): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\c00290201\Documents\Motion_Graphics\Lab_8\Lab_7\Game.cpp(185,39): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\c00290201\Documents\Motion_Graphics\Lab_8\Lab_7\Game.cpp(193,49): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\c00290201\Documents\Motion_Graphics\Lab_8\Lab_7\Game.cpp(193,39): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\c00290201\Documents\Motion_Graphics\Lab_8\Lab_7\Game.cpp(201,49): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\c00290201\Documents\Motion_Graphics\Lab_8\Lab_7\Game.cpp(201,39): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\c00290201\Documents\Motion_Graphics\Lab_8\Lab_7\Game.cpp(209,49): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\c00290201\Documents\Motion_Graphics\Lab_8\Lab_7\Game.cpp(209,39): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\c00290201\Documents\Motion_Graphics\Lab_8\Lab_7\Game.cpp(272,54): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\c00290201\Documents\Motion_Graphics\Lab_8\Lab_7\Game.cpp(272,44): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\c00290201\Documents\Motion_Graphics\Lab_8\Lab_7\Game.cpp(279,54): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\c00290201\Documents\Motion_Graphics\Lab_8\Lab_7\Game.cpp(279,44): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\c00290201\Documents\Motion_Graphics\Lab_8\Lab_7\Game.cpp(285,54): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\c00290201\Documents\Motion_Graphics\Lab_8\Lab_7\Game.cpp(285,44): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\c00290201\Documents\Motion_Graphics\Lab_8\Lab_7\Game.cpp(293,54): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\c00290201\Documents\Motion_Graphics\Lab_8\Lab_7\Game.cpp(293,44): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\c00290201\Documents\Motion_Graphics\Lab_8\Lab_7\Game.cpp(301,54): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\c00290201\Documents\Motion_Graphics\Lab_8\Lab_7\Game.cpp(301,44): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\c00290201\Documents\Motion_Graphics\Lab_8\Lab_7\Game.cpp(309,54): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\c00290201\Documents\Motion_Graphics\Lab_8\Lab_7\Game.cpp(309,44): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\c00290201\Documents\Motion_Graphics\Lab_8\Lab_7\Game.cpp(339,1): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\c00290201\Documents\Motion_Graphics\Lab_8\Lab_7\Game.cpp(347,1): warning C4305: '=': truncation from 'double' to 'float'
+C:\Users\c00290201\Documents\Motion_Graphics\Lab_8\Lab_7\Game.cpp(355,1): warning C4305: '=': truncation from 'double' to 'float'
+C:\Users\c00290201\Documents\Motion_Graphics\Lab_8\Lab_7\Game.cpp(468,1): warning C4305: '=': truncation from 'double' to 'float'
+  Lab_7.vcxproj -> C:\Users\c00290201\Documents\Motion_Graphics\Lab_8\Debug\Lab_7.exe
