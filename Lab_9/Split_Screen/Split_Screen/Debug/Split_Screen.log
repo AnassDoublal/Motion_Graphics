@@ -1,32 +1,7 @@
-﻿  Coin.cpp
-C:\Users\c00290201\Documents\Motion_Graphics\Lab_9\Split_Screen\Split_Screen\Coin.cpp(17,32): warning C4305: 'argument': truncation from 'double' to 'float'
-  Level.cpp
-C:\Users\c00290201\Documents\Motion_Graphics\Lab_9\Split_Screen\Split_Screen\Level.cpp(5,17): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
-C:\Users\c00290201\Documents\Motion_Graphics\Lab_9\Split_Screen\Split_Screen\Level.cpp(7,23): warning C4018: '<': signed/unsigned mismatch
-C:\Users\c00290201\Documents\Motion_Graphics\Lab_9\Split_Screen\Split_Screen\Level.cpp(9,24): warning C4018: '<': signed/unsigned mismatch
-C:\Users\c00290201\Documents\Motion_Graphics\Lab_9\Split_Screen\Split_Screen\Level.cpp(60,23): warning C4018: '<': signed/unsigned mismatch
-C:\Users\c00290201\Documents\Motion_Graphics\Lab_9\Split_Screen\Split_Screen\Level.cpp(62,24): warning C4018: '<': signed/unsigned mismatch
-  main.cpp
-C:\Users\c00290201\Documents\Motion_Graphics\Lab_9\Split_Screen\Split_Screen\main.cpp(46,65): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
-          with
-          [
-              T=unsigned int
-          ]
-C:\Users\c00290201\Documents\Motion_Graphics\Lab_9\Split_Screen\Split_Screen\main.cpp(46,41): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
-          with
-          [
-              T=unsigned int
-          ]
-C:\Users\c00290201\Documents\Motion_Graphics\Lab_9\Split_Screen\Split_Screen\main.cpp(50,65): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
-          with
-          [
-              T=unsigned int
-          ]
-C:\Users\c00290201\Documents\Motion_Graphics\Lab_9\Split_Screen\Split_Screen\main.cpp(50,41): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
-          with
-          [
-              T=unsigned int
-          ]
-  Generating Code...
-C:\Users\c00290201\Documents\Motion_Graphics\Lab_9\Split_Screen\Split_Screen\Coin.cpp(12): warning C4172: returning address of local variable or temporary: coinTexture
-  Split_Screen.vcxproj -> C:\Users\c00290201\Documents\Motion_Graphics\Lab_9\Split_Screen\Debug\Split_Screen.exe
+﻿  Level.cpp
+C:\Users\C00290201\Documents\Motion_Graphics\Lab_9\Split_Screen\Split_Screen\Level.cpp(5,17): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\C00290201\Documents\Motion_Graphics\Lab_9\Split_Screen\Split_Screen\Level.cpp(7,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\C00290201\Documents\Motion_Graphics\Lab_9\Split_Screen\Split_Screen\Level.cpp(9,24): warning C4018: '<': signed/unsigned mismatch
+C:\Users\C00290201\Documents\Motion_Graphics\Lab_9\Split_Screen\Split_Screen\Level.cpp(71,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\C00290201\Documents\Motion_Graphics\Lab_9\Split_Screen\Split_Screen\Level.cpp(73,24): warning C4018: '<': signed/unsigned mismatch
+  Split_Screen.vcxproj -> C:\Users\C00290201\Documents\Motion_Graphics\Lab_9\Split_Screen\Debug\Split_Screen.exe

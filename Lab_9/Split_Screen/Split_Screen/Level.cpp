@@ -14,7 +14,7 @@ void Level::init()
 			}
 			else
 			{
-				int random = std::rand() % 50;
+				int random = std::rand() % 25;
 
 				if(random >= 0 && random <= 2)
 					levelData[i][j] = 1;
@@ -37,15 +37,22 @@ void Level::init()
 		}
 	}
 
-	sf::Texture coinTexture = coins->loadTexture();
+	coins->loadTexture();
 
 	for (size_t i = 0; i < sizeof(coins) / sizeof(Coin); i++)
 	{
-		coins[i].init(coinTexture);
+		coins[i].init();
 
 		int random = std::rand() % (rows * cols);
-		int coinRow = random / rows;
 		int coinCol = random % cols;
+		int coinRow = random / rows;
+
+		while (coinCol == level[coinRow][coinCol].getPosition().x / tileWidth && coinRow == level[coinRow][coinCol].getPosition().y / tileHeight && level[coinRow][coinCol].getFillColor() == sf::Color::Green)
+		{
+			random = std::rand() % (rows * cols);
+			coinCol = random % cols;
+			coinRow = random / rows;
+		}
 
 		coins[i].getCoin().setPosition(tileWidth * coinCol, tileHeight * coinRow);
 	}
@@ -53,6 +60,10 @@ void Level::init()
 
 void Level::update()
 {
+	/*for (auto& coin : coins)
+	{
+		coin.update();
+	}*/
 }
 
 void Level::render(sf::RenderWindow& window)

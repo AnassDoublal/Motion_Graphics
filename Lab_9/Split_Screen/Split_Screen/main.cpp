@@ -21,6 +21,8 @@
 #include <vector>
 #include "Level.h"
 
+sf::Texture coinTexture;
+
 int main()
 {
 	sf::RenderWindow window(sf::VideoMode(1024, 756), "Using sf::View"); // Create window

@@ -1,10 +1,13 @@
 #pragma once
 #include "SFML/Graphics.hpp"
+#include "iostream"
+
+sf::Texture extern coinTexture;
 
 class Coin {
 public:
-	sf::Texture& loadTexture();
-	void init(sf::Texture&);
+	void loadTexture();
+	void init();
 	void update();
 	sf::Sprite& getCoin();
 private:

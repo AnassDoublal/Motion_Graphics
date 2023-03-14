@@ -1,21 +1,19 @@
 #include "Coin.h"
 
-sf::Texture& Coin::loadTexture()
+void Coin::loadTexture()
 {
-	sf::Texture coinTexture;
-
 	if (!coinTexture.loadFromFile("coin.png"))
 	{
 		// Error
 	}
 
-	return coinTexture;
+	std::cout << "LOADED TEXTURE\n";
 }
 
-void Coin::init(sf::Texture& t_texture)
+void Coin::init()
 {
 	coin.setScale(.100604, .100604);
-	coin.setTexture(t_texture);
+	coin.setTexture(coinTexture);
 }
 
 sf::Sprite& Coin::getCoin()
