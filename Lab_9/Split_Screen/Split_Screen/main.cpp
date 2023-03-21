@@ -20,13 +20,13 @@
 #include <time.h> 
 #include <vector>
 #include "Level.h"
+#include "Collision.h"
 
 sf::Texture coinTexture;
 
 int main()
 {
 	sf::RenderWindow window(sf::VideoMode(1024, 756), "Using sf::View"); // Create window
-
 
 	window.setFramerateLimit(60); // Set a framrate limit to reduce the CPU load
 
@@ -44,11 +44,11 @@ int main()
 	bulletPlayer2.setPosition(-10000, -10000);
 	sf::Sprite player2(texLink);
 	player2.setOrigin(8.f, 8.f);
-	player2.setScale(5, 5);
+	player2.setScale(2, 2);
 	player2.setPosition(window.getSize().x / 2, window.getSize().y / 2);
 	sf::Sprite player1(texLink);
 	player1.setOrigin(8.f, 8.f);
-	player1.setScale(3, 3);
+	player1.setScale(2, 2);
 	player1.setPosition(window.getSize().x / 2, window.getSize().y / 2);
 
 	sf::View fixed = window.getView(); // The 'fixed' view will never change
@@ -72,8 +72,20 @@ int main()
 	miniback.setFillColor(sf::Color(160, 8, 8));
 
 	Level level;
-
 	level.init();
+
+	Collision collision;
+
+	//for (size_t i = 0; i < 50; i++)
+	//{
+	//	for (size_t j = 0; j < 50; j++)
+	//	{
+	//		if (collision.playerToWall(player1, level.level) || collision.playerToWall(player2, level.level))
+	//		{
+	//			level.level[i][j].setFillColor(sf::Color::Magenta);
+	//		}
+	//	}
+	//}
 
 	left.setCenter(player1.getPosition());
 	right.setCenter(player2.getPosition());
@@ -97,37 +109,95 @@ int main()
 
 		level.update();
 
+		switch (collision.playerToWall(player1, level.level))
+		{
+			case Direction::LEFT:
+				if (sf::Keyboard::isKeyPressed(sf::Keyboard::A))
+				{
+					// Move left
+					player1.move(-4.f, 0.f);
+				}
+				if (sf::Keyboard::isKeyPressed(sf::Keyboard::W))
+				{
+					player1.move(0.f, -4.f);
+				}
+				if (sf::Keyboard::isKeyPressed(sf::Keyboard::S))
+				{
+					player1.move(0.f, 4.f);
+				}
+				break;
+			case Direction::RIGHT:
+				if (sf::Keyboard::isKeyPressed(sf::Keyboard::D))
+				{
+					player1.move(4.f, 0.f);
+				}
+				if (sf::Keyboard::isKeyPressed(sf::Keyboard::W))
+				{
+					player1.move(0.f, -4.f);
+				}
+				if (sf::Keyboard::isKeyPressed(sf::Keyboard::S))
+				{
+					player1.move(0.f, 4.f);
+				}
+				break;
+			case Direction::UP:
+				if (sf::Keyboard::isKeyPressed(sf::Keyboard::A))
+				{
+					// Move left
+					player1.move(-4.f, 0.f);
+				}
+				if (sf::Keyboard::isKeyPressed(sf::Keyboard::D))
+				{
+					player1.move(4.f, 0.f);
+				}
+				if (sf::Keyboard::isKeyPressed(sf::Keyboard::W))
+				{
+					player1.move(0.f, -4.f);
+				}
+				break;
+			case Direction::DOWN:
+				if (sf::Keyboard::isKeyPressed(sf::Keyboard::A))
+				{
+					// Move left
+					player1.move(-4.f, 0.f);
+				}
+				if (sf::Keyboard::isKeyPressed(sf::Keyboard::D))
+				{
+					player1.move(4.f, 0.f);
+				}
+				if (sf::Keyboard::isKeyPressed(sf::Keyboard::S))
+				{
+					player1.move(0.f, 4.f);
+				}
+				break;
+			default:
+				if (sf::Keyboard::isKeyPressed(sf::Keyboard::A))
+				{
+					// Move left
+					player1.move(-4.f, 0.f);
+				}
+				if (sf::Keyboard::isKeyPressed(sf::Keyboard::D))
+				{
+					player1.move(4.f, 0.f);
+				}
+				if (sf::Keyboard::isKeyPressed(sf::Keyboard::W))
+				{
+					player1.move(0.f, -4.f);
+				}
+				if (sf::Keyboard::isKeyPressed(sf::Keyboard::S))
+				{
+					player1.move(0.f, 4.f);
+				}
+
+		}
+
 		if (sf::Keyboard::isKeyPressed(sf::Keyboard::Space))
 		{
 
 			bulletPlayer1.setPosition(player1.getPosition());
 
 		}
-		if (sf::Keyboard::isKeyPressed(sf::Keyboard::A))
-		{
-			// Move left
-			player1.move(-4.f, 0.f);
-
-
-		}
-		if (sf::Keyboard::isKeyPressed(sf::Keyboard::D))
-		{
-
-			player1.move(4.f, 0.f);
-
-		}
-		if (sf::Keyboard::isKeyPressed(sf::Keyboard::W))
-		{
-
-			player1.move(0.f, -4.f);
-
-
-		}
-		if (sf::Keyboard::isKeyPressed(sf::Keyboard::S))
-		{
-			player1.move(0.f, 4.f);
-
-		}
+		
 		if (sf::Keyboard::isKeyPressed(sf::Keyboard::RAlt))
 		{
 			bulletPlayer2.setPosition(player2.getPosition());
