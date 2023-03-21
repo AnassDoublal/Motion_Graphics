@@ -14,7 +14,7 @@ void Level::init()
 			}
 			else
 			{
-				int random = std::rand() % 25;
+				int random = std::rand() % 10;
 
 				if(random >= 0 && random <= 2)
 					levelData[i][j] = 1;
@@ -47,7 +47,7 @@ void Level::init()
 		int coinCol = random % cols;
 		int coinRow = random / rows;
 
-		while (coinCol == level[coinRow][coinCol].getPosition().x / tileWidth && coinRow == level[coinRow][coinCol].getPosition().y / tileHeight && level[coinRow][coinCol].getFillColor() == sf::Color::Green)
+		while (coinCol == level[coinRow][coinCol].getPosition().x / tileWidth && coinRow == level[coinRow][coinCol].getPosition().y / tileHeight && level[coinRow][coinCol].getFillColor() == sf::Color::Color(42, 157, 143))
 		{
 			random = std::rand() % (rows * cols);
 			coinCol = random % cols;

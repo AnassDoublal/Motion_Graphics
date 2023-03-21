@@ -166,9 +166,9 @@ int main()
 			gameOver = true;
 			
 			if (player1Coins > player2Coins)
-				gameOverText.setString("Player 1 won!");
+				gameOverText.setString("Yellow wins!");
 			else if (player1Coins < player2Coins)
-				gameOverText.setString("Player 2 won!");
+				gameOverText.setString("Blue wins!");
 			else if (player1Coins == player2Coins)
 				gameOverText.setString("Players tie!");
 		}

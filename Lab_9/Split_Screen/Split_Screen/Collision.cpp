@@ -10,13 +10,14 @@ Direction Collision::playerToWall(sf::Sprite& player, sf::RectangleShape level[]
 			{
 				if (level[i][j].getFillColor() == sf::Color::Color(42, 157, 143))
 				{
+
 					if (player.getPosition().x - 5.0f < level[i][j].getPosition().x)
 						return Direction::LEFT;
 					else if (player.getPosition().x + 5.0f > level[i][j].getPosition().x + level[i][j].getGlobalBounds().width + 25.0f)
 						return Direction::RIGHT;
 					else if (player.getPosition().y - 5.0f < level[i][j].getPosition().y)
 						return Direction::UP;
-					else if (player.getPosition().y + 15.0f > level[i][j].getPosition().y + level[i][j].getGlobalBounds().height)
+					else if (player.getPosition().y + 5.0f > level[i][j].getPosition().y + level[i][j].getGlobalBounds().height)
 						return Direction::DOWN;
 				}
 			}

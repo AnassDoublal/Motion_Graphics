@@ -10,5 +10,4 @@ class Collision
 public:
 	Direction playerToWall(sf::Sprite&, sf::RectangleShape[][50]);
 	bool playerToCoin(sf::Sprite&, Coin&);
-private:
 };
