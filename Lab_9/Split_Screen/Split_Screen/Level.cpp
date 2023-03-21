@@ -25,10 +25,10 @@ void Level::init()
 			switch (levelData[i][j])
 			{
 				case 0:
-					level[i][j].setFillColor(sf::Color::Magenta);
+					level[i][j].setFillColor(sf::Color::Color(38, 70, 83));
 					break;
 				case 1:
-					level[i][j].setFillColor(sf::Color::Green);
+					level[i][j].setFillColor(sf::Color::Color(42, 157, 143));
 					break;
 			}
 

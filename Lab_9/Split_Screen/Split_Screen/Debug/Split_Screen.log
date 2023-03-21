@@ -1,20 +1,20 @@
 ﻿  main.cpp
-C:\Users\c00290201\Documents\Motion_Graphics\Lab_9\Split_Screen\Split_Screen\main.cpp(48,65): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+C:\Users\c00290201\Documents\Motion_Graphics\Lab_9\Split_Screen\Split_Screen\main.cpp(50,65): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
           with
           [
               T=unsigned int
           ]
-C:\Users\c00290201\Documents\Motion_Graphics\Lab_9\Split_Screen\Split_Screen\main.cpp(48,41): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+C:\Users\c00290201\Documents\Motion_Graphics\Lab_9\Split_Screen\Split_Screen\main.cpp(50,41): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
           with
           [
               T=unsigned int
           ]
-C:\Users\c00290201\Documents\Motion_Graphics\Lab_9\Split_Screen\Split_Screen\main.cpp(52,65): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+C:\Users\c00290201\Documents\Motion_Graphics\Lab_9\Split_Screen\Split_Screen\main.cpp(54,65): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
           with
           [
               T=unsigned int
           ]
-C:\Users\c00290201\Documents\Motion_Graphics\Lab_9\Split_Screen\Split_Screen\main.cpp(52,41): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+C:\Users\c00290201\Documents\Motion_Graphics\Lab_9\Split_Screen\Split_Screen\main.cpp(54,41): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
           with
           [
               T=unsigned int
