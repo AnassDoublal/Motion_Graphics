@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32505.173
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BaseDefence", "BaseDefence\BaseDefence.vcxproj", "{214EF85A-C923-439E-91D8-376FF2859EDA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{214EF85A-C923-439E-91D8-376FF2859EDA}.Debug|x64.ActiveCfg = Debug|x64
+		{214EF85A-C923-439E-91D8-376FF2859EDA}.Debug|x64.Build.0 = Debug|x64
+		{214EF85A-C923-439E-91D8-376FF2859EDA}.Debug|x86.ActiveCfg = Debug|Win32
+		{214EF85A-C923-439E-91D8-376FF2859EDA}.Debug|x86.Build.0 = Debug|Win32
+		{214EF85A-C923-439E-91D8-376FF2859EDA}.Release|x64.ActiveCfg = Release|x64
+		{214EF85A-C923-439E-91D8-376FF2859EDA}.Release|x64.Build.0 = Release|x64
+		{214EF85A-C923-439E-91D8-376FF2859EDA}.Release|x86.ActiveCfg = Release|Win32
+		{214EF85A-C923-439E-91D8-376FF2859EDA}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2761382B-5280-4E6E-B0C7-4DEC5F657096}
+	EndGlobalSection
+EndGlobal

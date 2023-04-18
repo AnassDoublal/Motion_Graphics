@@ -1,0 +1,69 @@
+﻿  Algorithm.cpp
+C:\Users\c00290201\Documents\Motion_Graphics\Lab_10\BaseDefence\BaseDefence\Grid.h(4,10): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+  BulletCreate.cpp
+C:\Users\c00290201\Documents\Motion_Graphics\Lab_10\BaseDefence\BaseDefence\BulletCreate.h(2,10): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+  BulletUpdate.cpp
+C:\Users\c00290201\Documents\Motion_Graphics\Lab_10\BaseDefence\BaseDefence\BulletCreate.h(2,10): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+  Collision.cpp
+C:\Users\c00290201\Documents\Motion_Graphics\Lab_10\BaseDefence\BaseDefence\Collision.h(2,10): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+  CollisionObject.cpp
+C:\Users\c00290201\Documents\Motion_Graphics\Lab_10\BaseDefence\BaseDefence\CollisionObject.h(2,10): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+  Color.cpp
+C:\Users\c00290201\Documents\Motion_Graphics\Lab_10\BaseDefence\BaseDefence\Color.cpp(1,10): fatal error C1083: Cannot open include file: 'Candle/graphics/Color.hpp': No such file or directory
+  CommandCenter.cpp
+C:\Users\c00290201\Documents\Motion_Graphics\Lab_10\BaseDefence\BaseDefence\CommandCenter.h(2,10): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+  Constants.cpp
+C:\Users\c00290201\Documents\Motion_Graphics\Lab_10\BaseDefence\BaseDefence\Constants.cpp(1,10): fatal error C1083: Cannot open include file: 'Candle/Constants.hpp': No such file or directory
+  DirectedLight.cpp
+C:\Users\c00290201\Documents\Motion_Graphics\Lab_10\BaseDefence\BaseDefence\DirectedLight.cpp(1,10): fatal error C1083: Cannot open include file: 'Candle/DirectedLight.hpp': No such file or directory
+  Enemy.cpp
+C:\Users\c00290201\Documents\Motion_Graphics\Lab_10\BaseDefence\BaseDefence\Enemy.h(2,10): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+  Game.cpp
+C:\Users\c00290201\Documents\Motion_Graphics\Lab_10\BaseDefence\BaseDefence\Game.h(2,10): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+  Grid.cpp
+C:\Users\c00290201\Documents\Motion_Graphics\Lab_10\BaseDefence\BaseDefence\Grid.h(4,10): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+  Hive.cpp
+C:\Users\c00290201\Documents\Motion_Graphics\Lab_10\BaseDefence\BaseDefence\Hive.h(2,10): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+  Hud.cpp
+C:\Users\c00290201\Documents\Motion_Graphics\Lab_10\BaseDefence\BaseDefence\Hud.h(2,10): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+  Light.cpp
+C:\Users\c00290201\Documents\Motion_Graphics\Lab_10\BaseDefence\BaseDefence\Light.h(2,10): fatal error C1083: Cannot open include file: 'Candle/RadialLight.hpp': No such file or directory
+  LightingArea.cpp
+C:\Users\c00290201\Documents\Motion_Graphics\Lab_10\BaseDefence\BaseDefence\LightingArea.cpp(1,10): fatal error C1083: Cannot open include file: 'Candle/LightingArea.hpp': No such file or directory
+  LightSource.cpp
+C:\Users\c00290201\Documents\Motion_Graphics\Lab_10\BaseDefence\BaseDefence\LightSource.cpp(1,10): fatal error C1083: Cannot open include file: 'Candle/LightSource.hpp': No such file or directory
+  Line.cpp
+C:\Users\c00290201\Documents\Motion_Graphics\Lab_10\BaseDefence\BaseDefence\Line.cpp(3,10): fatal error C1083: Cannot open include file: 'Candle/geometry/Line.hpp': No such file or directory
+  main.cpp
+C:\Users\c00290201\Documents\Motion_Graphics\Lab_10\BaseDefence\BaseDefence\Game.h(2,10): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+  Marker.cpp
+C:\Users\c00290201\Documents\Motion_Graphics\Lab_10\BaseDefence\BaseDefence\Marker.h(2,10): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+  Generating Code...
+  Compiling...
+  MathUtility.cpp
+C:\Users\c00290201\Documents\Motion_Graphics\Lab_10\BaseDefence\BaseDefence\MathUtility.h(3,10): fatal error C1083: Cannot open include file: 'SFML/System/Vector2.hpp': No such file or directory
+  Menu.cpp
+C:\Users\c00290201\Documents\Motion_Graphics\Lab_10\BaseDefence\BaseDefence\Menu.h(4,10): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+  Movement.cpp
+C:\Users\c00290201\Documents\Motion_Graphics\Lab_10\BaseDefence\BaseDefence\Movement.h(4,10): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+  Particle.cpp
+C:\Users\c00290201\Documents\Motion_Graphics\Lab_10\BaseDefence\BaseDefence\Particle.h(2,10): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+  ParticleSystem.cpp
+C:\Users\c00290201\Documents\Motion_Graphics\Lab_10\BaseDefence\BaseDefence\Particle.h(2,10): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+  Platform.cpp
+C:\Users\c00290201\Documents\Motion_Graphics\Lab_10\BaseDefence\BaseDefence\Platform.h(3,10): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+  Player.cpp
+C:\Users\c00290201\Documents\Motion_Graphics\Lab_10\BaseDefence\BaseDefence\Player.h(2,10): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+  Polygon.cpp
+C:\Users\c00290201\Documents\Motion_Graphics\Lab_10\BaseDefence\BaseDefence\Polygon.cpp(1,10): fatal error C1083: Cannot open include file: 'Candle/geometry/Polygon.hpp': No such file or directory
+  Pulse.cpp
+C:\Users\c00290201\Documents\Motion_Graphics\Lab_10\BaseDefence\BaseDefence\Pulse.h(2,10): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+  RadialLight.cpp
+C:\Users\c00290201\Documents\Motion_Graphics\Lab_10\BaseDefence\BaseDefence\RadialLight.cpp(6,10): fatal error C1083: Cannot open include file: 'Candle/RadialLight.hpp': No such file or directory
+  Toxic.cpp
+C:\Users\c00290201\Documents\Motion_Graphics\Lab_10\BaseDefence\BaseDefence\Toxic.h(2,10): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+  VertexArray.cpp
+C:\Users\c00290201\Documents\Motion_Graphics\Lab_10\BaseDefence\BaseDefence\VertexArray.cpp(1,10): fatal error C1083: Cannot open include file: 'Candle/graphics/VertexArray.hpp': No such file or directory
+  Wall.cpp
+C:\Users\c00290201\Documents\Motion_Graphics\Lab_10\BaseDefence\BaseDefence\Wall.h(2,10): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+  Generating Code...

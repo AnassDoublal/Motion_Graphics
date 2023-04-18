@@ -1,0 +1,60 @@
+﻿  Game.cpp
+C:\Users\c00290201\Documents\Motion_Graphics\Lab_10\BaseDefence\BaseDefence\Hive.h(9,6): warning C4227: anachronism used: qualifiers on reference are ignored
+C:\Users\c00290201\Documents\Motion_Graphics\Lab_10\BaseDefence\BaseDefence\Game.cpp(27,17): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\c00290201\Documents\Motion_Graphics\Lab_10\BaseDefence\BaseDefence\Game.cpp(163,30): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\c00290201\Documents\Motion_Graphics\Lab_10\BaseDefence\BaseDefence\Game.cpp(171,30): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+  Menu.cpp
+C:\Users\c00290201\Documents\Motion_Graphics\Lab_10\BaseDefence\BaseDefence\Hive.h(9,6): warning C4227: anachronism used: qualifiers on reference are ignored
+C:\Users\c00290201\Documents\Motion_Graphics\Lab_10\BaseDefence\BaseDefence\Menu.cpp(104,102): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\c00290201\Documents\Motion_Graphics\Lab_10\BaseDefence\BaseDefence\Menu.cpp(104,68): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\c00290201\Documents\Motion_Graphics\Lab_10\BaseDefence\BaseDefence\Menu.cpp(117,102): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\c00290201\Documents\Motion_Graphics\Lab_10\BaseDefence\BaseDefence\Menu.cpp(117,68): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=int
+          ]
+          and
+          [
+              T=float
+          ]
+  Particle.cpp
+  ParticleSystem.cpp
+C:\Users\c00290201\Documents\Motion_Graphics\Lab_10\BaseDefence\BaseDefence\ParticleSystem.cpp(8,115): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\c00290201\Documents\Motion_Graphics\Lab_10\BaseDefence\BaseDefence\ParticleSystem.cpp(8,80): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+  main.cpp
+C:\Users\c00290201\Documents\Motion_Graphics\Lab_10\BaseDefence\BaseDefence\Hive.h(9,6): warning C4227: anachronism used: qualifiers on reference are ignored
+C:\Users\c00290201\Documents\Motion_Graphics\Lab_10\BaseDefence\BaseDefence\main.cpp(42,48): warning C4305: 'argument': truncation from 'double' to 'float'
+  Generating Code...
+  BaseDefence.vcxproj -> C:\Users\c00290201\Documents\Motion_Graphics\Lab_10\BaseDefence\Debug\BaseDefence.exe
