@@ -58,6 +58,15 @@ void Enemy::update(Hive& t_hive, double dt)
 			nextPos--;
 		}
 	}
+
+	if (nextPos <= 0)
+	{
+		if (firstTimeReachingWall)
+		{
+			hasReachedWall = true;
+			firstTimeReachingWall = false;
+		}
+	}
 }
 
 // Render enemy
@@ -83,4 +92,9 @@ void Enemy::spawnEnemy(Hive& t_hive)
 Hive& Enemy::getHive()
 {
 	return *m_hive;
+}
+
+void Enemy::attackCommandCenter(CommandCenter& t_commandCenter)
+{
+	m_enemy.move(thor::unitVector(t_commandCenter.m_commandCenter.getPosition() - m_enemy.getPosition()));
 }

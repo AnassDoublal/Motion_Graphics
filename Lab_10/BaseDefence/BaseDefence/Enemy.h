@@ -2,10 +2,10 @@
 #include "SFML/Graphics.hpp"
 #include "Thor/Vectors.hpp"
 #include "Hive.h"
+#include "CommandCenter.h"
 #include "iostream"
 #include "Marker.h"
 #include "Pulse.h"
-
 #include "Algorithm.h"
 int const ENEMY_AMOUNT = 10;
 class Enemy
@@ -46,7 +46,12 @@ public:
 	void setPath(Algorithm&);
 
 	Hive& getHive();
-	
+
+	void attackCommandCenter(CommandCenter&);
+
+	bool hasReachedWall = false;
+	bool firstTimeReachingWall = true;
+
 	sf::Vector2f m_destination;
 	bool m_wasScanned = false;
 

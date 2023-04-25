@@ -2,7 +2,6 @@
 #include "SFML/Graphics.hpp"
 #include "Pulse.h"
 
-
 class CommandCenter
 {
 public:

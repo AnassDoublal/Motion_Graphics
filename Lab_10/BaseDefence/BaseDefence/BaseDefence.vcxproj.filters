@@ -1,258 +1,42 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="main.cpp">
-      <Filter>Game</Filter>
-    </ClCompile>
-    <ClCompile Include="BulletCreate.cpp">
-      <Filter>Player\Bullet</Filter>
-    </ClCompile>
-    <ClCompile Include="BulletUpdate.cpp">
-      <Filter>Player\Bullet</Filter>
-    </ClCompile>
-    <ClCompile Include="Particle.cpp">
-      <Filter>Player\Particle</Filter>
-    </ClCompile>
-    <ClCompile Include="ParticleSystem.cpp">
-      <Filter>Player\Particle</Filter>
-    </ClCompile>
-    <ClCompile Include="Player.cpp">
-      <Filter>Player\Player</Filter>
-    </ClCompile>
-    <ClCompile Include="Game.cpp">
-      <Filter>Game\Game</Filter>
-    </ClCompile>
-    <ClCompile Include="Collision.cpp">
-      <Filter>Game\Collision</Filter>
-    </ClCompile>
-    <ClCompile Include="CollisionObject.cpp">
-      <Filter>Game\Collision</Filter>
-    </ClCompile>
-    <ClCompile Include="CommandCenter.cpp">
-      <Filter>Level\CommandCenter</Filter>
-    </ClCompile>
-    <ClCompile Include="Pulse.cpp">
-      <Filter>Level\CommandCenter\Pulse</Filter>
-    </ClCompile>
-    <ClCompile Include="Marker.cpp">
-      <Filter>Level\CommandCenter\Pulse</Filter>
-    </ClCompile>
-    <ClCompile Include="Wall.cpp">
-      <Filter>Level\Wall</Filter>
-    </ClCompile>
-    <ClCompile Include="Grid.cpp">
-      <Filter>Game\Grid</Filter>
-    </ClCompile>
-    <ClCompile Include="Enemy.cpp">
-      <Filter>Enemy</Filter>
-    </ClCompile>
-    <ClCompile Include="Hive.cpp">
-      <Filter>Enemy</Filter>
-    </ClCompile>
-    <ClCompile Include="MathUtility.cpp">
-      <Filter>Maths</Filter>
-    </ClCompile>
-    <ClCompile Include="Movement.cpp">
-      <Filter>Player\Player</Filter>
-    </ClCompile>
-    <ClCompile Include="Algorithm.cpp">
-      <Filter>Game\Grid</Filter>
-    </ClCompile>
-    <ClCompile Include="Platform.cpp">
-      <Filter>Level\Platform</Filter>
-    </ClCompile>
-    <ClCompile Include="Toxic.cpp">
-      <Filter>Level\Toxic</Filter>
-    </ClCompile>
-    <ClCompile Include="Polygon.cpp">
-      <Filter>Candle</Filter>
-    </ClCompile>
-    <ClCompile Include="RadialLight.cpp">
-      <Filter>Candle</Filter>
-    </ClCompile>
-    <ClCompile Include="VertexArray.cpp">
-      <Filter>Candle</Filter>
-    </ClCompile>
-    <ClCompile Include="Color.cpp">
-      <Filter>Candle</Filter>
-    </ClCompile>
-    <ClCompile Include="Constants.cpp">
-      <Filter>Candle</Filter>
-    </ClCompile>
-    <ClCompile Include="DirectedLight.cpp">
-      <Filter>Candle</Filter>
-    </ClCompile>
-    <ClCompile Include="LightingArea.cpp">
-      <Filter>Candle</Filter>
-    </ClCompile>
-    <ClCompile Include="LightSource.cpp">
-      <Filter>Candle</Filter>
-    </ClCompile>
-    <ClCompile Include="Line.cpp">
-      <Filter>Candle</Filter>
-    </ClCompile>
-    <ClCompile Include="Light.cpp">
-      <Filter>Player\Light</Filter>
-    </ClCompile>
-    <ClCompile Include="Menu.cpp">
-      <Filter>Game\Menu</Filter>
-    <ClCompile Include="Hud.cpp">
-      <Filter>Level\Hud</Filter>
-    </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="BulletUpdate.h">
-      <Filter>Player\Bullet</Filter>
-    </ClInclude>
-    <ClInclude Include="BulletCreate.h">
-      <Filter>Player\Bullet</Filter>
-    </ClInclude>
-    <ClInclude Include="ParticleSystem.h">
-      <Filter>Player\Particle</Filter>
-    </ClInclude>
-    <ClInclude Include="Particle.h">
-      <Filter>Player\Particle</Filter>
-    </ClInclude>
-    <ClInclude Include="Player.h">
-      <Filter>Player\Player</Filter>
-    </ClInclude>
-    <ClInclude Include="Game.h">
-      <Filter>Game\Game</Filter>
-    </ClInclude>
-    <ClInclude Include="CollisionObject.h">
-      <Filter>Game\Collision</Filter>
-    </ClInclude>
-    <ClInclude Include="Collision.h">
-      <Filter>Game\Collision</Filter>
-    </ClInclude>
-    <ClInclude Include="CommandCenter.h">
-      <Filter>Level\CommandCenter</Filter>
-    </ClInclude>
-    <ClInclude Include="Pulse.h">
-      <Filter>Level\CommandCenter\Pulse</Filter>
-    </ClInclude>
-    <ClInclude Include="Marker.h">
-      <Filter>Level\CommandCenter\Pulse</Filter>
-    </ClInclude>
-    <ClInclude Include="Wall.h">
-      <Filter>Level\Wall</Filter>
-    </ClInclude>
-    <ClInclude Include="Grid.h">
-      <Filter>Game\Grid</Filter>
-    </ClInclude>
-    <ClInclude Include="Enemy.h">
-      <Filter>Enemy</Filter>
-    </ClInclude>
-    <ClInclude Include="Hive.h">
-      <Filter>Enemy</Filter>
-    </ClInclude>
-    <ClInclude Include="MathUtility.h">
-      <Filter>Maths</Filter>
-    </ClInclude>
-    <ClInclude Include="Movement.h">
-      <Filter>Player\Player</Filter>
-    </ClInclude>
-    <ClInclude Include="Algorithm.h">
-      <Filter>Game\Grid</Filter>
-    </ClInclude>
-    <ClInclude Include="Platform.h">
-      <Filter>Level\Platform</Filter>
-    </ClInclude>
-    <ClInclude Include="Toxic.h">
-      <Filter>Level\Toxic</Filter>
-    </ClInclude>
-    <ClInclude Include="Light.h">
-      <Filter>Player\Light</Filter>
-    </ClInclude>
-    <ClInclude Include="Menu.h">
-      <Filter>Game\Menu</Filter>
-    </ClInclude>
-    <ClInclude Include="GameState.h">
-      <Filter>Game\Game</Filter>
-    <ClInclude Include="Hud.h">
-      <Filter>Level\Hud</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <Filter Include="Game">
-      <UniqueIdentifier>{25363ad5-094b-4edb-a157-9ab924bb7f3d}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Player">
-      <UniqueIdentifier>{84c419a8-15f4-45b8-ace8-1c7192d86ead}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Player\Bullet">
-      <UniqueIdentifier>{f998d7d0-c8c0-4c3a-9b6e-e79fb74ef920}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Player\Particle">
-      <UniqueIdentifier>{c7f65007-2074-43f4-9c62-8c8cf3030c6a}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Player\Player">
-      <UniqueIdentifier>{f6ca0111-7f24-48f8-92db-3551e02056d1}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Game\Game">
-      <UniqueIdentifier>{b9fb2efb-7b96-418f-8052-ee82f1b213c9}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Game\Menu">
-      <UniqueIdentifier>{49f6d91e-d4fd-4f60-ac7e-b631ae051c8d}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Game\Collision">
-      <UniqueIdentifier>{a39146f5-24d8-477b-a34e-7e7c6636cd3d}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Level">
-      <UniqueIdentifier>{6aec3bae-4d07-42b1-bcbf-4a3aa72747cd}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Level\CommandCenter">
-      <UniqueIdentifier>{e2dbed9e-4451-4ac8-8d85-ab2513f8137e}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Level\CommandCenter\Pulse">
-      <UniqueIdentifier>{33486b1b-40ba-4dd4-ac53-3206469bc425}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Level\Wall">
-      <UniqueIdentifier>{78c1e264-b52e-44df-9801-2c4a57d1ea98}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Game\Grid">
-      <UniqueIdentifier>{1ed2739e-2028-42cf-9ff8-7038c3305a3c}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Enemy">
-      <UniqueIdentifier>{7108ec0d-140e-4893-9970-d0a62fa8773c}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Maths">
-      <UniqueIdentifier>{e8b98ef4-dce1-4b37-814b-0b08e14ed656}</UniqueIdentifier>
-    </Filter>
+    <ClCompile Include="Algorithm.cpp" />
     <ClCompile Include="BulletCreate.cpp" />
     <ClCompile Include="BulletUpdate.cpp" />
     <ClCompile Include="Collision.cpp" />
     <ClCompile Include="CollisionObject.cpp" />
+    <ClCompile Include="Color.cpp" />
     <ClCompile Include="CommandCenter.cpp" />
+    <ClCompile Include="Constants.cpp" />
+    <ClCompile Include="DirectedLight.cpp" />
     <ClCompile Include="Enemy.cpp" />
     <ClCompile Include="Game.cpp" />
     <ClCompile Include="Grid.cpp" />
     <ClCompile Include="Hive.cpp" />
+    <ClCompile Include="Hud.cpp" />
+    <ClCompile Include="Light.cpp" />
+    <ClCompile Include="LightingArea.cpp" />
+    <ClCompile Include="LightSource.cpp" />
+    <ClCompile Include="Line.cpp" />
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="MathUtility.cpp" />
-    <ClCompile Include="Player.cpp" />
-    <ClCompile Include="Wall.cpp" />
-    <ClCompile Include="Pulse.cpp" />
     <ClCompile Include="Marker.cpp" />
+    <ClCompile Include="MathUtility.cpp" />
+    <ClCompile Include="Menu.cpp" />
+    <ClCompile Include="Movement.cpp" />
     <ClCompile Include="Particle.cpp" />
     <ClCompile Include="ParticleSystem.cpp" />
-    <Filter Include="Level\Platform">
-      <UniqueIdentifier>{865e525b-8445-4ed9-8c9a-4fce77f824c2}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Level\Toxic">
-      <UniqueIdentifier>{b6914bf6-8ccb-4af9-b184-c64dbaa5c0ad}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Candle">
-      <UniqueIdentifier>{62175bab-e28e-4434-9bf0-5682eff8ccd6}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Player\Light">
-      <UniqueIdentifier>{afad559b-77e7-4a11-b857-901b30cc7f9f}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Level\Hud">
-      <UniqueIdentifier>{a5d73f2b-2c30-4eff-897d-ad1f14d95236}</UniqueIdentifier>
-    </Filter>
+    <ClCompile Include="Platform.cpp" />
+    <ClCompile Include="Player.cpp" />
+    <ClCompile Include="Polygon.cpp" />
+    <ClCompile Include="Pulse.cpp" />
+    <ClCompile Include="RadialLight.cpp" />
+    <ClCompile Include="Toxic.cpp" />
+    <ClCompile Include="VertexArray.cpp" />
+    <ClCompile Include="Wall.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Algorithm.h" />
     <ClInclude Include="BulletUpdate.h" />
     <ClInclude Include="BulletCreate.h" />
     <ClInclude Include="Collision.h" />
@@ -260,14 +44,21 @@
     <ClInclude Include="CommandCenter.h" />
     <ClInclude Include="Enemy.h" />
     <ClInclude Include="Game.h" />
+    <ClInclude Include="GameState.h" />
     <ClInclude Include="Grid.h" />
     <ClInclude Include="Hive.h" />
-    <ClInclude Include="MathUtility.h" />
-    <ClInclude Include="Player.h" />
-    <ClInclude Include="Wall.h" />
-    <ClInclude Include="Pulse.h" />
+    <ClInclude Include="Hud.h" />
+    <ClInclude Include="Light.h" />
     <ClInclude Include="Marker.h" />
+    <ClInclude Include="MathUtility.h" />
+    <ClInclude Include="Menu.h" />
+    <ClInclude Include="Movement.h" />
     <ClInclude Include="Particle.h" />
     <ClInclude Include="ParticleSystem.h" />
+    <ClInclude Include="Platform.h" />
+    <ClInclude Include="Player.h" />
+    <ClInclude Include="Pulse.h" />
+    <ClInclude Include="Toxic.h" />
+    <ClInclude Include="Wall.h" />
   </ItemGroup>
 </Project>

@@ -8,7 +8,7 @@ public:
 	Hud(sf::Font&);
 	void update(double dt);
 	void render(sf::RenderWindow&);
+	int currentScore = 0;
 private:
 	sf::Text m_score;
-	int currentScore = 0;
 };

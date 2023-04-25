@@ -89,4 +89,9 @@ protected:
 	sf::Texture m_barrelTexture;
 	sf::Texture m_explosionTexture;
 	sf::Font m_font;
+
+	bool gameOver = false;
+
+	sf::RectangleShape gameOverBg;
+	sf::Text gameOverText;
 };

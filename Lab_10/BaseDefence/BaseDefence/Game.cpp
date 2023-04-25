@@ -83,18 +83,24 @@ void Game::init()
 
 		int randomWall = std::rand() % wallObjs.size();
 		enemyObjs[i].m_destination = algoObjs[i].grid[wallObjs[randomWall].m_wallCell].m_pos;
-
 		enemyObjs[i].setPath(algoObjs[i]);
 	}
 	//std::cout << algoObj.getId(wallObjs[0].m_wall.getPosition());
 
 	lightObj.init();
+
+	gameOverText.setFont(m_font);
+	gameOverText.setPosition(600, 300);
+	gameOverText.setFillColor(sf::Color::White);
+	gameOverText.setCharacterSize(48);
+
+	gameOverBg.setFillColor(sf::Color::Black);
+	gameOverBg.setSize(sf::Vector2f(m_window.getSize().x, m_window.getSize().y));
 }
 
 // Update game
 void Game::update(double dt)
 {
-
 	for (size_t i = 0; i < barrelObjs.size(); i++)
 	{
 		barrelObjs[i].update(dt);
@@ -197,6 +203,30 @@ void Game::update(double dt)
 	for (size_t i = 0; i < enemyObjs.size(); i++)
 	{
 		enemyObjs[i].update(enemyObjs[i].getHive(), dt);
+
+		if (enemyObjs[i].hasReachedWall)
+		{
+			//std::cout << "reached wall with index : " << enemyObjs[i].m_destinationWall << "\n";
+
+			for (size_t j = 0; j < wallObjs.size(); j++)
+			{
+				if (enemyObjs[i].m_enemy.getPosition().x <= wallObjs[j].m_wall.getPosition().x + 30.0f
+				 && enemyObjs[i].m_enemy.getPosition().x >= wallObjs[j].m_wall.getPosition().x - 30.0f
+				 && enemyObjs[i].m_enemy.getPosition().y <= wallObjs[j].m_wall.getPosition().y + 30.0f
+				 && enemyObjs[i].m_enemy.getPosition().y >= wallObjs[j].m_wall.getPosition().y - 30.0f)
+				{
+					wallObjs.erase(wallObjs.begin() + j);
+				}
+			}
+
+			enemyObjs[i].attackCommandCenter(commandCenterObj);
+		}
+
+		if (newCollision.collision(enemyObjs[i].m_enemy, commandCenterObj.m_commandCenter))
+		{
+			gameOverText.setString("      Game Over\nEnemies killed: " + std::to_string(hudObj.currentScore));
+			gameOver = true;
+		}
 	}
 
 	// Bullet and enemy collisions
@@ -244,6 +274,11 @@ void Game::update(double dt)
 
 	lightObj.update(playerObj);
 
+	if (enemyObjs.size() <= 0)
+	{
+		gameOverText.setString("      Game Over\nEnemies killed: " + std::to_string(ENEMY_AMOUNT));
+		gameOver = true;
+	}
 }
 
 // Render game objects
@@ -286,6 +321,12 @@ void Game::render()
 	for (size_t i = 0; i < barrelObjs.size(); i++)
 	{
 		barrelObjs[i].render(m_window);
+	}
+
+	if (gameOver)
+	{
+		m_window.draw(gameOverBg);
+		m_window.draw(gameOverText);
 	}
 }
 

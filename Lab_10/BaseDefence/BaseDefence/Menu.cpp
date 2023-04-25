@@ -53,10 +53,10 @@ void Menu::init() {
 	font.loadFromFile("resources/fonts/rubik.ttf");
 
 	titleText.setFont(font);
-	titleText.setString("FIGHT OR DIE");
+	titleText.setString("NIGHT TERRORS");
 	titleText.setCharacterSize(60);
 	titleText.setFillColor(sf::Color::White);
-	titleText.setPosition(510.0f, 100.0f);
+	titleText.setPosition(475.0f, 100.0f);
 
 	nameText.setFont(font);
 	nameText.setString("Made by Adrian Sokolowski & Anass Doublal");
